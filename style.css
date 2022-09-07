@@ -33,9 +33,6 @@
     margin: var(--s5) var(--s0) var(--s0) 16rem;
     height: 4rem;
     width: 4rem;
-}
-
-.navbar__logo {
     cursor: pointer;
 }
 
@@ -43,12 +40,14 @@
     margin: 4rem 13rem var(--s0) var(--s0);
 }
 
-.navbar__links li {
+.navbar__link {
     display: inline-block;
     margin-right: var(--s3);
 }
 
 .navbar__button {
+    display: inline-block;
+    margin-right: var(--s3);
     color: var(--purple);
     border: var(--purple) solid 0.175rem;
     border-radius: 32px;
@@ -115,12 +114,12 @@
     margin: -10rem auto 10rem auto;
 }
 
-.skills div {
+.skills__container {
     width: 33.333%;
     text-align: center;
 }
 
-.skills img {
+.skills__image {
     height: 5rem;
     width: 5rem;
     padding: var(--s1);
@@ -130,7 +129,7 @@
     margin: var(--s5) var(--s0) var(--s4) var(--s0);
 }
 
-.skills p {
+.skills__caption {
     font-size: 1.25rem;
     display: inline-block;
     margin: var(--s5) var(--s0);
@@ -169,9 +168,10 @@
     font-size: var(--s4);
 }
 
-.work p a {
+.work__mail {
     text-decoration: none;
     color: var(--blue);
+    cursor: pointer;
 }
 
 .work__title {
@@ -203,7 +203,7 @@
     padding: var(--s2) var(--s3);
 }
 
-footer {
+.footer {
     background-color: var(--purple);
     text-align: center;
     color: var(--white2);
